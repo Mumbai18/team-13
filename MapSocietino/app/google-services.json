@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "274856966878",
+    "firebase_url": "https://maptry-78d42.firebaseio.com",
+    "project_id": "maptry-78d42",
+    "storage_bucket": "maptry-78d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274856966878:android:d528eeebfeb989e5",
+        "android_client_info": {
+          "package_name": "com.example.juhib.mapsocietino"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274856966878-sqlvka9h8gnbfhd5u7ekt1k7f38pf48n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA8UonwzOUwv_YifaWXbRLjmUfyszu4Z0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
