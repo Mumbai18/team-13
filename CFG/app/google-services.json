@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "93035080575",
+    "firebase_url": "https://annadhan-b693a.firebaseio.com",
+    "project_id": "annadhan-b693a",
+    "storage_bucket": "annadhan-b693a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93035080575:android:8129aa4c7d036c43",
+        "android_client_info": {
+          "package_name": "com.example.opgupta.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93035080575-m3ue4c12urru4gg179tlvhb77m90k6af.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opgupta.myapplication",
+            "certificate_hash": "10eaeb31dadde73fced55f087adc65c02ec4920f"
+          }
+        },
+        {
+          "client_id": "93035080575-sd12icv8j3usgsmcnnf4hm8dggjclrk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfR2u3QVqT5-JGzDv5pwNi-nETvtd_TT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93035080575-sd12icv8j3usgsmcnnf4hm8dggjclrk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

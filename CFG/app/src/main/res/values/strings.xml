@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="firebase_status_fmt">okok</string>
+    <string name="google_status_fmt" />
+    <string name="signed_out" />
+    <string name="loading">loading</string>
+</resources>
