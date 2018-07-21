@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.cfgannadaan.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+
+        <ImageView
+            android:id="@+id/ImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/plus"
+            android:layout_gravity="center"
+            android:onClick="onUploadCLick"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:padding="15dp" />
+
+            <EditText
+                android:id="@+id/myNumber"
+                android:padding="15dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="Approx People"
+                android:digits="0123456789."
+                android:inputType="numberDecimal"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:padding="5dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When was it prepared(in hrs)?"/>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <CheckBox android:id="@+id/checkbox_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Default Location"
+                android:onClick="onCheckboxClicked"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/EnterLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Location"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+
+
+            <CheckBox android:id="@+id/checkbox_maps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maps Location"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
