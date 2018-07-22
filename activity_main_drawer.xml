@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_got_a_new_issue"
+            android:icon="@drawable/new_issue"
+            android:title="Got a new Issue ?"
+            />
+
+    </group>
+
+<item android:title="Reported Issues">
+
+    <menu>
+
+        <group
+            android:id="@+id/group2"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_potholes"
+                android:icon="@drawable/potholes"
+                android:title="Pothole Issues" />
+            <item
+                android:id="@+id/nav_sanitation"
+                android:icon="@drawable/sanitation"
+                android:title="Sanitation Issues" />
+            <item
+                android:id="@+id/nav_resend"
+                android:icon="@drawable/resend"
+                android:title="Resend Issues" />
+
+        </group>
+
+
+    </menu>
+</item>
+
+    <item android:title="Reported Issues on Map">
+
+        <menu>
+            <group>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/map"
+                android:title="Map" />
+
+            </group>
+
+
+        </menu>
+    </item>
+
+
+
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@drawable/signout"
+            android:title="Sign-out" />
+
+
+<!--    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
